@@ -2,6 +2,94 @@ body {
 background:url("images/logocoif.png") no-repeat  center center fixed; 
 }
 
+* {
+	margin:0;
+	padding:0;
+	list-style:none;
+	box-sizing:border-box;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.tatse {
+  margin: 330px auto 10px;
+}
+
+
+/*
+#################### CSS for the Headline or Navbar #################### 
+*/
+header {
+	width:100%;
+	float:left;
+	border-bottom:1px solid rgba(0,0,0,0.5);
+color: White;
+background: #3d3d3d;
+}
+
+header img {
+  vertical-align: middle;
+padding: 0 0px 0 0px;
+margin: 0 3px 3px 25px;
+}
+
+.logo {
+	display:block;
+	width:100%;
+	padding:0.5em;
+	text-decoration:none;
+	color:white;
+}
+
+nav {
+	width:100%;
+	float:left;
+}
+
+nav li {
+	float:left;
+	width:100%;
+}
+
+nav a {
+	display:block;
+	height:100%;
+	width:100%;
+	padding:1em;
+	text-decoration:none;
+	color:white;
+	border-top:1px solid rgba(0,0,0,0.5);
+}
+
+nav a:hover {
+	background:rgba(0,0,0,0.2);
+}
+
+@media screen and (min-width:800px) {
+	
+	.logo {
+		width:auto;
+		float:right;	
+	}
+	
+	nav {
+		float:left;
+		width:auto;
+	}
+
+	nav a {
+		border:none;
+	}
+	
+	nav li {
+		width:auto;
+	}
+
+}
+
+
+/*
+
+*/
 .mitte {
   display: block;
   margin: 30px auto 10px;

@@ -28,8 +28,8 @@ background: #3d3d3d;
 
 header img {
   vertical-align: middle;
-padding: 0 0px 0 0px;
-margin: 0 3px 3px 25px;
+  padding: 0 0px 0 0px;
+  margin: 0 3px 3px 25px;
 }
 
 .logo {
@@ -88,17 +88,17 @@ nav a:hover {
 
 
 /*
+#################### end of CSS for the Headline or Navbar #################### 
 
+############## CSS for main Element ############## 
 */
 .mitte {
   display: block;
   margin: 30px auto 10px;
-
 }
 
-
 button {
-font: normal 1.2em Arial, sans-serif;
+  font: normal 1.2em Arial, sans-serif;
   background-color: #4CAF50; /* Green */
   color: white;
   padding: 5px;
@@ -107,11 +107,6 @@ font: normal 1.2em Arial, sans-serif;
 button:hover {
   background-color: #3d3d3d;
   color: red;
-}
-
-img {
-  vertical-align: middle;
-  padding-left: 13px;
 }
 
 
